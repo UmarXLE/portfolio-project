@@ -6,3 +6,28 @@
         color: var(--title-color);
     }
 }
+
+.wrapper_content {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+
+    & p {
+        font-size: 16px;
+        color: var(--defaul-text-color);
+
+        & span {
+            color: var(--title-color);
+        }
+
+        & a {
+            text-decoration: none;
+        }
+    }
+
+    .sub_title {
+        font-size: 20px;
+        letter-spacing: 3px;
+        color: var(--title-color);
+    }
+}

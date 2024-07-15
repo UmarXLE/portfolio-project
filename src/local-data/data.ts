@@ -1,4 +1,32 @@
 interface socialInterface {
-
+    id:number,
+    title:string,
+    img:string,
+    link:string
 }
-export const social_data = []
+export const social_data:socialInterface[] = [
+    {
+        id:1,
+        title:'Instagram',
+        img:'/assets/icons/instagram.png',
+        link:"test",
+    },
+    {
+        id:2,
+        title:'LinkedIn',
+        img:'/assets/icons/linkedin-info.png',
+        link:"test",
+    },
+    {
+        id:3,
+        title:'Telegram',
+        img:'/assets/icons/telegram.png',
+        link:"test",
+    },
+    {
+        id:4,
+        title:'Github',
+        img:'/assets/icons/github.png',
+        link:"test",
+    }
+]

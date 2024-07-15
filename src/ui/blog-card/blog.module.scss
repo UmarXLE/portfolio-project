@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
+    .title {
+        font-size: 24px;
+        color: var(--title-color);
+        font-weight: 400;
+
+        &:hover {
+            transition: 0.25s ease all;
+            color: var(--blue);
+            cursor: pointer;
+        }
+    }
+
+    .sub_title {
+        font-size: 16px;    
+        color: var(--defaul-text-color);
+    }
+
+    .description {
+        font-size: 16px;
+        color: var(--defaul-text-color);
+    }
+}

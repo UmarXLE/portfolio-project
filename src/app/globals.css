@@ -21,10 +21,20 @@ body {
   --defaul-text-color:#adb4bb;
   --title-color:#eef5fc;
   --main-bg-color:#0c0f11;
+  --blue:rgb(79, 77, 230);
 }
 
 .main-wrapper {
   max-width: 1200px;
   width: 50%;
   margin: 0 auto;
+}
+
+p {
+  line-height: 190%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(79, 77, 230);
 }
