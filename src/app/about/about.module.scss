@@ -5,6 +5,10 @@
         font-size: 32px;
         color: var(--title-color);
     }
+
+    & span {
+        color: var(--title-color);
+    }
 }
 
 .wrapper_content {
@@ -29,5 +33,19 @@
         font-size: 20px;
         letter-spacing: 3px;
         color: var(--title-color);
+        text-transform: uppercase;
+    }
+
+    .item {
+        margin: 10px 0;
+        .item_up {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content_text_ul {
+            padding-left: 40px;
+        }
     }
 }

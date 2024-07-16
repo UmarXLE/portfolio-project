@@ -21,14 +21,76 @@ const AboutPage = () => {
                     If you want to contact me , I most often reply in <a href="https://t.me/umar_mambetov">Telegram</a> and am usually quite active on <a href="">LinkedIn</a>.
                 </p>
 
-                <div>
+                <div className={styled.item}>
                     <h3 className={styled.sub_title}>PREVIOUSLY</h3>
                     <p>
                         Most recently, I worked at the <span>IT RUN DEV</span> Programming Academy as a support, later I got a job at the <span>ASOI</span> development studio, where we develop universal web applications for business
                     </p>
                 </div>
 
-                <div>
+                <div className={styled.item}>
+                    <h3 className={styled.sub_title}>work experience</h3>
+                    <div className={styled.item_up}>
+                        <span>Frontend Developer , ASOI Development Studio</span>
+                        <span>03/2023 - present day.</span>
+                    </div>
+                    <ul className={styled.content_text_ul}>
+                        <li>He developed a CRM system for automating a furniture factory using the React JS framework, automated work with orders , which led to a 15% increase in profits%</li>
+                        <li>Created web applications using technologies : Next JS, Redis, Node Js for
+                        mushroom business with a turnover of 7,000,000 rubles per month</li>
+                        <li>Improved user interface (UI) performance by optimizing
+                        database interaction, reducing time by 25%.</li>
+                        <li>Participated in the project on the implementation of a new monitoring system for</li>
+                    </ul>
+
+                    <div style={{marginTop:"30px"}} className={styled.item_up}>
+                        <span>Web Development Support , IT RUN Programming Academy</span>
+                        <span>09/2022 - 03/2023</span>
+                    </div>
+                    <ul className={styled.content_text_ul}>
+                        <li>Teaching students the basics and advanced aspects of Web Development</li>
+                        <li>Development of educational programs and course materials</li>
+                        <li>Assessment and analysis of student progress, correction of educational plans</li>
+                    </ul>
+
+                </div>
+
+                <div className={styled.item}>
+                    <h3 className={styled.sub_title}>EDUCATION</h3>
+                    <div className={styled.item_up}>
+                        <span>Secondary professional education Programmer Technologist</span>
+                        <span>2020 - 2023</span>
+                    </div>
+                    <span>MUKR International College</span>
+                    <ul className={styled.content_text_ul}>
+                        <li>Specialization in the field of software.</li>
+                        <li>Dissertation on "Innovations in sustainable engineering practice".</li>
+                    </ul>
+                </div>
+
+
+                <div className={styled.item}>
+                    <h3 className={styled.sub_title}>additional information</h3>
+                    <ul className={styled.content_text_ul}>
+                        <li>
+                            <span>Technical skills</span> : Javascript , Web-APIs , React , Next JS , Redux , Redux-Toolkit ,
+                            Node JS , Mongo DB , Scss , Sass , Styled-Components , Mui , Git & Github
+                        </li>
+                        <li>
+                            <span>Languages</span> : English, Russian, Kyrgyz
+                        </li>
+                        <li>
+                            <span>Certificates</span> : Frontend Developer (Itrun), Programmer Technologist (MUKR)
+                        </li>
+                        <li>
+                            <span>Awards/Activity</span> : Gold medalist of the Era of Technology hackathon, Silver medalist of the Digital Competition
+                        </li>
+                    </ul>
+                </div>
+
+                
+
+                <div className={styled.item}>
                     <h3 className={styled.sub_title}>USER MANUAL  </h3>
                     <p> I created a playbook on how to <Link href={""}>work with me</Link>. It captures some of my strengths, weaknesses, and principles that I aim to follow.</p>
                 </div>
@@ -43,7 +105,7 @@ const AboutPage = () => {
                     }}
                     whileTap={{ scale: 0.9 }}
                 >
-                    <Link href="https://github.com/umar-mambetov">More about me →  </Link>
+                    <Link href="/user-manual">More about me →  </Link>
                 </motion.div>
 
             </div>
