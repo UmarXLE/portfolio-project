@@ -3,6 +3,7 @@ import { Fira_Code } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/base/header/Header";
 import Footer from "@/components/base/footer/Footer";
+import LineFollower from "@/components/common-ui/line-follower/LineFollower";
 
 const inter = Fira_Code({ subsets: ["latin"] });
 

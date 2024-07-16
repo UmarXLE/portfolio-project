@@ -3,10 +3,12 @@ import React from 'react';
 import styled from "./about.module.scss"
 import Link from 'next/link';
 import { motion } from "framer-motion"
+import LineFollower from '@/components/common-ui/line-follower/LineFollower';
 
 const AboutPage = () => {
     return (
         <main className={styled.container}>
+            <LineFollower/>
             <h2 className={styled.title}>Hey, I'm Umar 👋🏼</h2>
             <div className={styled.wrapper_content}>
                 <p>
