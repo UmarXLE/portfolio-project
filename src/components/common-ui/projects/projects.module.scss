@@ -35,6 +35,9 @@
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
     transition: transform 0.5s;
     &:hover {
       transform: scale(1.05);
@@ -51,14 +54,14 @@
     .cardTitle {
       font-size: 1.25rem;
       font-weight: bold;
-      color: #6b46c1;
+      color: var(--title-color);
       margin-bottom: 0.5rem;
     }
   
     .cardSubtitle {
       font-size: 0.875rem;
       font-weight: bold;
-      color: #4a4a4a;
+      color: var(--title-color);
       margin-bottom: 0.25rem;
     }
   }

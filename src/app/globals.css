@@ -39,3 +39,18 @@ a {
   text-decoration: none;
   color: rgb(79, 77, 230);
 }
+
+.text-typing
+{
+    width: 45em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+@keyframes type{
+    from { width: 0; }
+}
+@-webkit-keyframes type{
+    from { width: 0; }
+}

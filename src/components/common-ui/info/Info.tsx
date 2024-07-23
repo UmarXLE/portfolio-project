@@ -15,7 +15,7 @@ const Info = () => {
                     height={200} />
             </div>
             <div className={styled.content}>
-                <h3><span>Hey, I'm Umar.</span> I'm a Frontend Developer</h3>
+                <h3 className='text-typing'><span>Hey, I'm Umar.</span> I'm a Frontend Developer</h3>
                 <div className={styled.wrapper_social}>
                     {social_data.map((item, index) => (
                         <a className={styled.item_social} href={item.link} key={index}>
